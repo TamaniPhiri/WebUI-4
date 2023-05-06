@@ -7,13 +7,13 @@ const Navbar = () => {
     <div>
         <nav className="fixed top-0 left-0 w-full bg-orange-400 shadow">
             <div className="container m-auto flex items-center justify-between">
-                <h1 className='pl-8 py-4'>
-                    Ula<span>i</span>
+                <h1 className='pl-8 py-4 font-extrabold font'>
+                    Ula<span className=' italic'>i</span>
                 </h1>
-                <ul className="flex items-center">
-                    <li className="text-lg">Home</li>
-                    <li>Services</li>
-                    <li>Pricing</li>
+                <ul className="hidden md:flex items-center pr-10">
+                    <li className=" py-4 px-6">Home</li>
+                    <li className=" py-4 px-6">Services</li>
+                    <li className=" font-semibold py-4 px-6">Pricing</li>
                 </ul>
             </div>
         </nav>
