@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import Hero from './Hero';
 
 const Navbar = () => {
 
@@ -44,6 +45,7 @@ const Navbar = () => {
                 </button>
             </div>
         </nav>
+        <Hero/>
     </div>
   )
 }
