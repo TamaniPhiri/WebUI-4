@@ -19,8 +19,12 @@ const Navbar = () => {
                     <div className="w-5 h-[2px] bg-orange-900 mb-1"></div>
                     <div className="w-5 h-[2px] bg-orange-900 mb-1"></div>
                     <div className="w-5 h-[2px] bg-orange-900 mb-1"></div>
-                    <div className=" w-3/4 absolute top-0 right-0 h-screen bg-white">
-
+                    <div className=" w-3/4 absolute top-0 right-0 h-screen bg-white border">
+                        <ul>
+                            <li className="px-6 py-4 border-b-[1px] hover:text-orange-900 cursor-pointer">Home</li>
+                            <li className="px-6 py-4 border-b-[1px] hover:text-orange-900 cursor-pointer">Services</li>
+                            <li className="px-6 py-4 border-b-[1px] hover:text-orange-900 cursor-pointer">Pricing</li>
+                        </ul>
                     </div>
                 </button>
             </div>
