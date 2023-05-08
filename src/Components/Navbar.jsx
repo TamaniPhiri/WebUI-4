@@ -9,7 +9,7 @@ const Navbar = () => {
       };
 
   return (
-    <section className=' pb-8'>
+    <section className=' pb-16'>
         <nav className="fixed top-0 left-0 w-full bg-orange-400 shadow">
             <div className="container px-4 md:px-12 py-4 m-auto flex items-center justify-between">
 
