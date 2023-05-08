@@ -6,8 +6,8 @@ function App() {
 
   return (
     <div className=" px-4 md:px-12">
-      <Navbar/>
-      <Hero/>
+      <Navbar className=' -z-20 '/>
+      <Hero className=' z-0'/>
     </div>
   )
 }
