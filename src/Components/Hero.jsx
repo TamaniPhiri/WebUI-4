@@ -20,7 +20,7 @@ const Hero = () => {
             <Player
                 autoplay
                 loop
-                src="https://assets2.lottiefiles.com/packages/lf20_0pivjQFVZl.json"
+                src="https://assets9.lottiefiles.com/packages/lf20_k0sUtnckyH.json"
                 className='h-full md:h-[100%] w-[100%] object-cover'
             >
             </Player>
