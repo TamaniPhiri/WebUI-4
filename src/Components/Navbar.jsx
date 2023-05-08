@@ -1,8 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 
-
 const Navbar = () => {
+
+    const handleClick = () => {
+        const ref = document.getElementById('hero');
+        ref?.scrollIntoView({ behavior: 'smooth' });
+      };
+
   return (
     <div>
         <nav className="fixed top-0 left-0 w-full bg-orange-400 shadow">
@@ -32,7 +37,7 @@ const Navbar = () => {
                     <div className=" w-3/4 absolute top-0 -right-full h-[600px] bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
                         <ul>
                             <li className="px-6 py-4 border-b-[1px] hover:bg-orange-300 cursor-pointer">Home</li>
-                            <li className="px-6 py-4 border-b-[1px] hover:bg-orange-300 cursor-pointer">Services</li>
+                            <li className="px-6 py-4 border-b-[1px] hover:bg-orange-300 cursor-pointer" onClick={handleClick}>Services</li>
                             <li className="px-6 py-4 border-b-[1px] hover:bg-orange-300 cursor-pointer">Pricing</li>
                         </ul>
                     </div>
