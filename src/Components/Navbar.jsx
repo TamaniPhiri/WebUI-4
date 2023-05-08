@@ -21,7 +21,7 @@ const Navbar = () => {
                 </ul>
 
                 {/*Menu Button*/}
-                <button className='block md:hidden'>
+                <button className='block md:hidden group'>
 
                     {/*Button*/}
                     <div className="w-5 h-[2px] bg-orange-900 mb-1"></div>
