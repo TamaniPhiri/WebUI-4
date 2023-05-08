@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar'
 function App() {
 
   return (
-    <div className=" items-center justify-center">
+    <div className=" px-4 md:px-12">
       <Navbar/>
       <Hero/>
     </div>
