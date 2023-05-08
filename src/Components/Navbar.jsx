@@ -6,15 +6,23 @@ const Navbar = () => {
   return (
     <div>
         <nav className="fixed top-0 left-0 w-full bg-orange-400 shadow">
-            <div className="container m-auto flex items-center justify-between">
-                <h1 className='pl-8 py-4 font-extrabold font text-orange-900'>
+            <div className="container px-4 md:px-12 py-4 m-auto flex items-center justify-between">
+                <h1 className='font-extrabold font text-orange-900 cursor-pointer hover:scale-105'>
                     Ula<span className=' italic text-white'>i</span>
                 </h1>
-                <ul className="hidden md:flex items-center pr-10 text-white">
-                    <li className=" py-4 px-6 ">Home</li>
-                    <li className=" py-4 px-6">Services</li>
-                    <li className=" py-4 px-6">Pricing</li>
+                <ul className="hidden md:flex items-center text-white">
+                    <li className="hover:text-orange-900 cursor-pointer">Home</li>
+                    <li className="pl-6 hover:text-orange-900 cursor-pointer">Services</li>
+                    <li className="pl-6 hover:text-orange-900 cursor-pointer">Pricing</li>
                 </ul>
+                <button className='block md:hidden'>
+                    <div className="w-5 h-[2px] bg-orange-900 mb-1"></div>
+                    <div className="w-5 h-[2px] bg-orange-900 mb-1"></div>
+                    <div className="w-5 h-[2px] bg-orange-900 mb-1"></div>
+                    <div className=" w-3/4 absolute top-0 right-0 h-screen bg-white">
+
+                    </div>
+                </button>
             </div>
         </nav>
     </div>
