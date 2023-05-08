@@ -9,7 +9,7 @@ const Navbar = () => {
       };
 
   return (
-    <section className=' pb-16 z-10 sticky' id='navbar'>
+    <section className='z-50 sticky mb-10 md:mb-0' id='navbar'>
         <nav className="fixed top-0 left-0 w-full bg-teal-600 shadow">
             <div className="container px-4 md:px-12 py-4 m-auto flex items-center justify-between">
 
