@@ -29,18 +29,34 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/*Options*/}
-            <div className='flex-row flex items-center w-full'>
-                <div className='w-1/2 flex flex-row'>
+            {/*Options 1*/}
+            <div className='flex-row flex items-center w-full py-2'>
+                <div className='w-1/2 flex flex-row items-center'>
                     <BsCheck2All className='text-[#085e57] text-lg '/>
-                    <p className='pl-2'>
+                    <p className='pl-2 text-sm md:text-lg'>
+                        Fast Reliable Delivery
+                    </p>
+                </div>
+                <div className='w-1/2 flex flex-row items-center'>
+                    <BsCheck2All className='text-[#085e57] text-lg '/>
+                    <p className='pl-2 text-sm md:text-lg'>
                         Flexible Scheduling
                     </p>
                 </div>
-                <div className='w-1/2 flex flex-row'>
+            </div>
+
+            {/*Options 2*/}
+            <div className='flex-row flex items-center w-full py-2'>
+                <div className='w-1/2 flex flex-row items-center'>
                     <BsCheck2All className='text-[#085e57] text-lg '/>
-                    <p className='pl-2'>
-                        Flexible Scheduling
+                    <p className='pl-2 text-sm md:text-lg'>
+                        Same Day Delivery
+                    </p>
+                </div>
+                <div className='w-1/2 flex flex-row items-center'>
+                    <BsCheck2All className='text-[#085e57] text-lg '/>
+                    <p className='pl-2 text-sm md:text-lg'>
+                        24/7 Support and Tracking
                     </p>
                 </div>
             </div>
