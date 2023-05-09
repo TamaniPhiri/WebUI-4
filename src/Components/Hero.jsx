@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { useRef } from 'react'
-import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import { Player} from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
     const ref=useRef(null);
@@ -13,7 +13,7 @@ const Hero = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non excepturi dolores corrupti adipisci, ab neque natus hic explicabo commodi!
             </p>
             <div className="items-center flex-row w-full flex mx-auto py-7 space-x-4">
-                <div className=" bg-[#085e57] items-center justify-center w-60 rounded-md py-2 text-center">
+                <div className="bg-[#085e57] items-center justify-center w-60 rounded-md py-2 text-center">
                     <a href="#" className=' px-4 text-white'>Get Started</a>
                 </div>
                 <div className="hidden md:block shadow-md items-center justify-center w-60 rounded-md py-2 mx-0 md:mx-4 text-center">
