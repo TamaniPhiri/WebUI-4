@@ -10,7 +10,7 @@ const Hero = () => {
 
             {/*Upper Text*/}
             <div>
-                <h1 className=' text-[#3c4c4c] font-bold text-3xl md:text-5xl text-center md:text-left'>Lorem Ipsum Dolor</h1>
+                <h1 className=' text-[#3c4c4c] font-bold text-3xl md:text-4xl text-center md:text-left'>Lorem Ipsum Dolor</h1>
                 <p className='text-[#939c9c] mt-4 text-sm md:text-lg text-center md:text-left'>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non excepturi dolores corrupti adipisci, ab neque natus hic explicabo commodi!
                 </p>
@@ -31,13 +31,13 @@ const Hero = () => {
             <div className='flex-row flex items-center w-full py-2'>
                 <div className='w-1/2 flex flex-row items-center'>
                     <BsCheck2All className='text-[#085e57] text-lg '/>
-                    <p className='pl-2 text-sm md:text-lg'>
+                    <p className='pl-2 text-[10px] md:text-[12px] pr-1'>
                         Fast Reliable Delivery
                     </p>
                 </div>
                 <div className='w-1/2 flex flex-row items-center'>
                     <BsCheck2All className='text-[#085e57] text-lg '/>
-                    <p className='pl-2 text-sm md:text-lg'>
+                    <p className='pl-2 text-[10px] md:text-[12px]'>
                         Flexible Scheduling
                     </p>
                 </div>
@@ -47,14 +47,14 @@ const Hero = () => {
             <div className='flex-row flex items-center w-full py-2'>
                 <div className='w-1/2 flex flex-row items-center'>
                     <BsCheck2All className='text-[#085e57] text-lg '/>
-                    <p className='pl-2 text-sm md:text-lg'>
+                    <p className='pl-2 text-[10px] md:text-[12px] pr-1'>
                         Same Day Delivery
                     </p>
                 </div>
                 <div className='w-1/2 flex flex-row items-center'>
                     <BsCheck2All className='text-[#085e57] text-lg '/>
-                    <p className='pl-2 text-sm md:text-lg'>
-                        24/7 Support and Tracking
+                    <p className='pl-2 text-[10px] md:text-[12px]'>
+                        Support and Tracking
                     </p>
                 </div>
             </div>
