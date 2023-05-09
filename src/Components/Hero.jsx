@@ -9,15 +9,15 @@ const Hero = () => {
     <section className="flex w-full h-screen md:h-fit mt-20 md:mt-20 flex-col-reverse md:flex-row items-center justify-center px-4 md:px-14 container">
         <div className="w-full md:w-1/2">
             <h1 className=' text-[#3c4c4c] font-bold text-3xl md:text-5xl'>Lorem Ipsum Dolor</h1>
-            <p className='text-[#939c9c] mt-4 text-sm md:text-lg'>
+            <p className='text-[#939c9c] mt-4 text-sm md:text-lg text-center md:text-left'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non excepturi dolores corrupti adipisci, ab neque natus hic explicabo commodi!
             </p>
-            <div className="items-center justify-between flex-row w-full flex mx-auto py-7 space-x-4">
-                <div className=" bg-[#085e57] items-center justify-center w-full rounded-md py-2 text-center">
+            <div className="items-center flex-row w-full flex mx-auto py-7 space-x-4">
+                <div className=" bg-[#085e57] items-center justify-center w-60 rounded-md py-2 text-center">
                     <a href="#" className=' px-4 text-white'>Get Started</a>
                 </div>
-                <div className=" bg-[#085e57] items-center justify-center w-full rounded-md py-2 mx-0 md:mx-4 text-center">
-                    <a href="#" className=' px-4 text-white'>Get Started</a>
+                <div className="hidden md:block shadow-md items-center justify-center w-60 rounded-md py-2 mx-0 md:mx-4 text-center">
+                    <a href="#" className=' px-4 text-[#085e57]'>Contact Us</a>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@ const Hero = () => {
                 autoplay
                 loop
                 src="https://assets9.lottiefiles.com/packages/lf20_k0sUtnckyH.json"
-                className='h-full md:h-[100%] w-[100%] object-cover'
+                className='h-full md:h-[100%] w-[100%] object-contain'
             >
             </Player>
         </div>
