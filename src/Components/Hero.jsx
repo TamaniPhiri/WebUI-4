@@ -1,13 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import { useRef } from 'react'
 import { Player} from '@lottiefiles/react-lottie-player';
 import { BsCheck2All } from "react-icons/bs";
 
 const Hero = () => {
-    const ref=useRef(null);
   return (
-    <section className="flex w-full h-screen md:h-fit mt-20 md:mt-20 flex-col-reverse md:flex-row items-center justify-center px-4 md:px-14 container">
+    <section className="flex w-full h-screen md:h-fit mt-20 md:mt-20 flex-col-reverse md:flex-row items-center justify-center px-4 md:px-14 container" id='home'>
         <div className="w-full md:w-1/2">
 
             {/*Upper Text*/}
@@ -63,7 +61,7 @@ const Hero = () => {
         </div>
 
         {/*Hero Animation*/}
-        <div className='w-full md:w-1/2 items-center justify-center z-0'ref={ref}>
+        <div className='w-full md:w-1/2 items-center justify-center z-0'>
             <Player
                 autoplay
                 loop

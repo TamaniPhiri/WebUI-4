@@ -3,10 +3,15 @@ import React from 'react'
 
 const Navbar = () => {
 
-    const services = () => {
-        const ref = document.getElementById('services');
+    const about = () => {
+        const ref = document.getElementById('about');
         ref?.scrollIntoView({ behavior: 'smooth' });
       };
+
+      const home=()=>{
+         const hero = document.getElementById('home');
+         hero?.scrollIntoView({ behavior: 'smooth' });
+      }
 
   return (
     <section className='z-50 sticky -mb-16 md:mb-0' id='navbar'>
@@ -20,8 +25,8 @@ const Navbar = () => {
 
                 {/*Menu List*/}
                 <ul className="hidden md:flex items-center text-white">
-                    <li className="hover:text-teal-900 cursor-pointer">Home</li>
-                    <li className="pl-6 hover:text-teal-900 cursor-pointer" onClick={services}>Services</li>
+                    <li className="hover:text-teal-900 cursor-pointer" onClick={home}>Home</li>
+                    <li className="pl-6 hover:text-teal-900 cursor-pointer" onClick={about}>About</li>
                     <li className="pl-6 hover:text-teal-900 cursor-pointer">Pricing</li>
                 </ul>
 
@@ -37,7 +42,7 @@ const Navbar = () => {
                     <div className="w-3/4 absolute top-0 -right-full h-screen bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
                         <ul>
                             <li className="px-6 py-4 border-b-[1px] hover:bg-teal-300 cursor-pointer">Home</li>
-                            <li className="px-6 py-4 border-b-[1px] hover:bg-teal-300 cursor-pointer" onClick={services}>Services</li>
+                            <li className="px-6 py-4 border-b-[1px] hover:bg-teal-300 cursor-pointer" onClick={about}>About</li>
                             <li className="px-6 py-4 border-b-[1px] hover:bg-teal-300 cursor-pointer">Pricing</li>
                         </ul>
                     </div>
