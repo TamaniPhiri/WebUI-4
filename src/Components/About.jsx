@@ -6,8 +6,10 @@ const About = () => {
 
     const home=useRef(null);
   return (
-    <div ref={home} id='about' className='h-screen'>
-        About Us bro
+    <div ref={home} id='about' className='h-screen flex'>
+        <div>
+            <h1>About Us</h1>
+        </div>
     </div>
   )
 }
