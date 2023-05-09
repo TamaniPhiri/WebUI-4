@@ -6,14 +6,19 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 const Hero = () => {
     const ref=useRef(null);
   return (
-    <section className="flex w-full h-screen md:h-fit mt-20 md:mt-20 flex-col-reverse md:flex-row items-center justify-center">
+    <section className="flex w-full h-screen md:h-fit mt-20 md:mt-20 flex-col-reverse md:flex-row items-center justify-center px-4 md:px-14 container">
         <div className="w-full md:w-1/2">
-            <h1 className=' text-[#3c4c4c] font-bold text-3xl md:text-5xl'>Find a job that suits your passion</h1>
+            <h1 className=' text-[#3c4c4c] font-bold text-3xl md:text-5xl'>Lorem Ipsum Dolor</h1>
             <p className='text-[#939c9c] mt-4 text-sm md:text-lg'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non excepturi dolores corrupti adipisci, ab neque natus hic explicabo commodi!
             </p>
-            <div className=" bg-[#085e57] items-center justify-center w-fit rounded-md py-2 mt-4">
-                <a href="#" className=' px-4 text-white'>Get Started</a>
+            <div className="items-center justify-between flex-row w-full flex mx-auto py-7 space-x-4">
+                <div className=" bg-[#085e57] items-center justify-center w-full rounded-md py-2 text-center">
+                    <a href="#" className=' px-4 text-white'>Get Started</a>
+                </div>
+                <div className=" bg-[#085e57] items-center justify-center w-full rounded-md py-2 mx-0 md:mx-4 text-center">
+                    <a href="#" className=' px-4 text-white'>Get Started</a>
+                </div>
             </div>
         </div>
         <div className='w-full md:w-1/2 items-center justify-center z-0'ref={ref}>
