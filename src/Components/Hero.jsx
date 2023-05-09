@@ -18,7 +18,7 @@ const Hero = () => {
 
             {/*Buttons*/}
 
-            <div className="items-center flex-row w-full flex mx-auto py-7 space-x-4">
+            <div className="items-center flex-row w-full flex mx-auto py-6 space-x-4">
                 <div className="bg-[#085e57] items-center justify-center w-full md:w-60 rounded-md py-2 text-center">
                     <a href="#" className=' px-4 text-white'>Get Started</a>
                 </div>
@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
 
             {/*Options 2*/}
-            <div className='flex-row flex items-center w-full py-2'>
+            <div className='flex-row flex items-center w-full py-2 mb-4'>
                 <div className='w-1/2 flex flex-row items-center'>
                     <BsCheck2All className='text-[#085e57] text-lg '/>
                     <p className='pl-2 text-[10px] md:text-[12px] pr-1'>
